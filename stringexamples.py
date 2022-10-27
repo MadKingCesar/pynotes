@@ -14,3 +14,4 @@ print(block)
 
 print(s2[-2]) #Slices 2 steps from the back of the string ex) outputs "x") 
 print(s2[1:3])#Slices from 1 and 3 characters forward ex) outputs "ex" (first character is cut out)
+print(s2[1:]) #Outputs all characters past the first one (character 0)
