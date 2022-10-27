@@ -1,0 +1,4 @@
+import sys              #System module
+import string           #String module
+import tkinter as tk    #GUI module
+import math             #Math module
