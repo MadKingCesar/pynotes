@@ -27,3 +27,13 @@ pow, abs        (&more)
 Utility modules *
 rand, math      (&more)
 
+stringtable % *
+%s  string
+%c  character
+%d  decimal
+%i  integer
+%u  unsigned integer
+%o  octal integer
+%x  hex integer
+
+
