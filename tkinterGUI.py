@@ -1,3 +1,6 @@
+#FOR PYTHON 3.11
+#OTHER IMPORTS CAN BE: after Tkinter import*
+#OR: import tk
 import tkinter as tk
 
 class App(tk.Frame):
