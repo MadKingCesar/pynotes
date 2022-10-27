@@ -1,0 +1,29 @@
+Table(s) **
+
+Numbers       |   3.145, 1234, 999L, 3+4j
+Strings       |   'text', "guid'$"
+Lists         |   [1, [2, 'three'], 4]
+Dictionaries  |   {'food':'fruit', 'taste':'yum'}
+Tuples        |   {1,'sp',4,'U'}
+Files         |   text = open('file', 'r').read()
+
+Numeric constants *
+_________________
+1234, -24, 0
+9999999999999L
+1.23, 3.14-e10, 4e210, 4.0e+210
+0177, 0x9ff
+3+4j, 3.0+4, 3J
+________________
+
+Floating points numbers have embedded decimal point or signed with e/E
+Python interpreter makes floating point numbers double or long, if it ends with l/L it becomes py long int (otherwise C long)
+Complex numbers use j/J
+
+Expression operators *
++, *, >>, **    (&more)
+Built in math funcs *
+pow, abs        (&more)
+Utility modules *
+rand, math      (&more)
+
