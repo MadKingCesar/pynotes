@@ -15,3 +15,8 @@ print(block)
 print(s2[-2]) #Slices 2 steps from the back of the string ex) outputs "x") 
 print(s2[1:3])#Slices from 1 and 3 characters forward ex) outputs "ex" (first character is cut out)
 print(s2[1:]) #Outputs all characters past the first one (character 0)
+
+addition = "file"
+s3 = "A new %s!" % addition  #This adds addition ("file") in the place of %S in the s3 string (output will be "A new file!")
+print(s3)
+print("%d %s %d" % (1, 'example', 4)) #Replaces %d %s and %d with the current string "", output will be 1 example 4
