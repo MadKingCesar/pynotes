@@ -11,3 +11,6 @@ for x in s2:i+=1 #Runs through string and increases i by 1
 print("there is: ",i," numbers in i")
 print(block)
 "k" in s2 #Returns false, no K in s2
+
+print(s2[-2]) #Slices 2 steps from the back of the string ex) outputs "x") 
+print(s2[1:3])#Slices from 1 and 3 characters forward ex) outputs "ex" (first character is cut out)
