@@ -2,7 +2,7 @@ import sys              #System module
 import string           #String module
   { string.upper(string)
   { string.find(string, "text")        
-  { string.atoi("string"), 'string'            
+  { string.atoi("string"), 'number'            
   { string.join()        
 import tkinter as tk    #GUI module
 import math             #Math module
