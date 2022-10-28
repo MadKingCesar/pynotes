@@ -1,33 +1,40 @@
 Table(s) **
-
+___________________________________
 Numbers       |   3.145, 1234, 999L, 3+4j
 Strings       |   'text', "guid'$"
 Lists         |   [1, [2, 'three'], 4]
 Dictionaries  |   {'food':'fruit', 'taste':'yum'}
 Tuples        |   {1,'sp',4,'U'}
 Files         |   text = open('file', 'r').read()
+___________________________________
+
 
 Numeric constants *
-_________________
+___________________________________
 1234, -24, 0
 9999999999999L
 1.23, 3.14-e10, 4e210, 4.0e+210
 0177, 0x9ff
 3+4j, 3.0+4, 3J
-________________
+___________________________________
 
 Floating points numbers have embedded decimal point or signed with e/E
 Python interpreter makes floating point numbers double or long, if it ends with l/L it becomes py long int (otherwise C long)
 Complex numbers use j/J
 
+
 Expression operators *
+___________________________________
 +, *, >>, **    (&more)
 Built in math funcs *
 pow, abs        (&more)
 Utility modules *
 rand, math      (&more)
+___________________________________
+
 
 stringtable % *
+___________________________________
 %s  string
 %c  character
 %d  decimal
@@ -35,5 +42,27 @@ stringtable % *
 %u  unsigned integer
 %o  octal integer
 %x  hex integer
+___________________________________
+
+
+String backslash characters *
+___________________________________
+\n      Newline (feedline)
+\v      Vertical tab
+\r      Horizontal tab
+\f      Form feed
+\0XX    Octal value XX
+\xXX    Hex value XX
+\other  Other character
+
+\\      Backslash
+\'      Single quote
+\"      Double quote
+\a      Bell
+\b      Backslash
+\e      Escape (usually)
+\000    Null
+___________________________________
+
 
 
