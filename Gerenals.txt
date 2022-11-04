@@ -1,0 +1,9 @@
+Truth values
+
+"text" true 
+"" false
+[] false
+{} false
+1  true
+0.0 false
+none false
