@@ -18,7 +18,7 @@ del d2[key]                   #Deleting
 d2 = {'One':1, 'two':2}
 print(d2.keys())
 print(d2.values())
-print(d2.fromkeys('one'))
+print('One' in d2)
 
 
 Output: 
@@ -28,3 +28,4 @@ PS C:\py>  c:; cd 'c:\py'; & 'C:\Users\***\AppData\Local\Microsoft\WindowsApps\p
 dict_keys(['One', 'two'])
 dict_values([1, 2])
 {'o': None, 'n': None, 'e': None}
+True
